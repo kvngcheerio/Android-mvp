@@ -1,0 +1,80 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+
+        <item
+            android:id="@+id/nav_cat"
+            android:checked="true"
+            android:icon="@drawable/category"
+            android:title="@string/nav_cat" />
+        <item
+            android:id="@+id/nav_stores"
+            android:checked="true"
+            android:icon="@drawable/store"
+            android:title="@string/nav_store" />
+    </group>
+    <group>
+
+        <item android:title="Account">
+        <item
+            android:id="@+id/nav_account"
+            android:checked="true"
+            android:icon="@drawable/user"
+            android:title="@string/nav_account" />
+
+            <item
+                android:id="@+id/nav_orders"
+                android:checked="true"
+                android:icon="@drawable/copy"
+                android:title="@string/nav_order" />
+
+            <item
+                android:id="@+id/nav_promo"
+                android:checked="true"
+                android:icon="@drawable/bookmark"
+                android:title="@string/nav_promo" />
+        </item>
+
+
+    </group>
+
+    <group>
+
+        <item
+            android:id="@+id/nav_group"
+            android:checked="true"
+            android:icon="@drawable/cart"
+            android:title="@string/nav_group" />
+
+        <item
+            android:id="@+id/nav_gift"
+            android:checked="true"
+            android:icon="@drawable/asset1"
+            android:title="@string/nav_gift" />
+
+        <item
+            android:id="@+id/nav_list"
+            android:checked="true"
+            android:icon="@drawable/asset13"
+            android:title="@string/nav_list" />
+
+        <item
+            android:id="@+id/nav_oja"
+            android:checked="true"
+            android:icon="@drawable/logo"
+            android:title="@string/nav_cat" />
+
+        <item
+            android:id="@+id/nav_settings"
+            android:checked="true"
+            android:icon="@drawable/settings"
+            android:title="@string/nav_settings" />
+
+        <item
+            android:id="@+id/nav_logout"
+            android:checked="true"
+            android:icon="@drawable/logout"
+            android:title="@string/nav_logout" />
+
+
+    </group>
+</menu>
